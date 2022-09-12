@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="img-container">
+        <!-- <img
+          src="images/image-equilibrium.jpg"
+          class="main-img"
+          alt="Equilibrum jpeg"
+        /> -->
+      </div>
+      <h1 class="main-heading">Equilibrium #3429</h1>
+      <p class="text-paragraph">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="day-price">
+        <div class="lil-icons-box">
+          <img src="images/icon-ethereum.svg" class="lil-icons" />
+          <p class="price">0.041 ETH</p>
+        </div>
+        <div class="lil-icons-box">
+          <img src="images/icon-clock.svg" class="lil-icons" />
+          <p class="days-left">3 days left</p>
+        </div>
+      </div>
+      <div class="creator-box">
+        <div class="profile-box">
+          <div class="profile-pic-box">
+            <img src="images/image-avatar.png" class="profile-pic" />
+          </div>
+          <p class="creator-name">Creation of <span>Jules Wyvern</span></p>
+        </div>
+      </div>
+    </section>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
+    <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </div> -->
+  </body>
 </html>
